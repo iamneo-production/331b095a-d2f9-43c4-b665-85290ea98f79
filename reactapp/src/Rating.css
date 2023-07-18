@@ -1,0 +1,25 @@
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .rating-label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .stars {
+    font-size: 24px;
+  }
+  
+  .star {
+    cursor: pointer;
+    color: #ccc;
+  }
+  
+  .star.active {
+    color: #fdd835;
+  }
+  

@@ -1,0 +1,66 @@
+.book {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .book:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-image {
+    flex: 0 0 150px;
+    margin-right: 20px;
+  }
+  
+  .book-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-details {
+    flex: 1;
+  }
+  
+  .book-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .book-author {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 15px;
+  }
+  
+  .bookmark-button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bookmark-button:hover {
+    background-color: #eaeaea;
+  }
+  
+  .bookmarked {
+    color: #ffffff;
+    background-color: #4caf50;
+  }
+  
+  .bookmarked:hover {
+    background-color: #45a049;
+  }
+  
